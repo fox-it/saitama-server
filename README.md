@@ -1,9 +1,11 @@
 # Saitama DNS Listener Proof-of-Concept
 This is an implementation of the server-side component of the Saitama implant, to be used by detection engineers / digital defenders for research purposes. The core components that faciliate communication for the implant have been implemented. 
 
-Some functionality (such as file download / upload or the execution of hardcoded commands) have not been implemented, but the code has been written with the possiblity of future extension in mind. 
+Some functionality (such as file download / upload or the execution of hardcoded commands) have not been implemented, but the code has been written with the possibility of future extension in mind. 
 
 A recording of the implant's activity has been included in the data directory in two formats (pcap and zeek logs). The pcap can be replayed using replay.py
+
+For further information regarding (the detection of) Saitama and the development of this server-side implementation, please review [our accompanying blog](https://blog.fox-it.com/2022/08/11/detecting-dns-implants-old-kitten-new-tricks-a-saitama-case-study/). 
 
 ## Usage
 
